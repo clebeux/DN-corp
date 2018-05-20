@@ -3,7 +3,7 @@
 <head>
 <title>SDIS 29</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="../style.css" rel="stylesheet" type="text/css" />
+<link href="../lib/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="container">
@@ -12,7 +12,7 @@
   <div id="nav">
     <ul>
       <li class="nlink"><a href="01_sp.php">Accueil</a></li>
-	  <li class="nlink"><a href="/arborescenceDvlpt V0.1/lib/php/affiche PF1.php">Personnel</a></li>
+	  <li class="nlink"><a href="../lib/php/affiche PF1.php">Personnel</a></li>
 	  <li class="nlink"><a href="../lib/php/pf3.php">Formation</a></li>
 
     </ul>
@@ -22,9 +22,7 @@
 		       		</div>
     <div style="clear:both"></div>
  </div>
-<?php 	
-		include "/home/sdis/arborescenceDvlpt V0.1/lib/php/footer.php";
-?>
+<?php   include '../lib/php/footer.php'; ?>
 </div>
 </body>
 </html>	

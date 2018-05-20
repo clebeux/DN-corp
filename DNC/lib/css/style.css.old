@@ -1,6 +1,6 @@
 
 body {
-	background: #000000 url(images/main-bg.gif) repeat-x;
+	background: #000000 url(../../images/main-bg.gif) repeat-x;
 	color: #7F7F7F;
 	font-family: tahoma, arial;
 	font-size: 15px;
@@ -79,12 +79,13 @@ a:hover, a:active {
 #content {
 	clear: both;
 	width: 775px;
-	background-image: url(images/content-bg.gif);
+	/*background-image: url(../../images/content-bg.gif);*/
+	background-color: white;
 	background-repeat: repeat;
 }
 
 #footer {
-	background: url(images/footer-bg.gif) no-repeat;
+	background: url(../../images/footer-bg.gif) no-repeat;
 	clear: both;
 	color: #FFFFFF;
 	display: block;
@@ -122,7 +123,7 @@ a:hover, a:active {
 	display: block;
 	height: 43px;
 	width: 776px;
-	background-image: url(images/nav-bg.gif);
+	background-image: url(../../images/nav-bg.gif);
 	background-repeat: repeat-x;
 }
 #nav ul li a {
@@ -152,7 +153,7 @@ a:hover, a:active {
 	height:28px;
 }
 .nlink{
-	background-image: url(images/nav-line.gif);
+	background-image: url(../../images/nav-line.gif);
 	background-repeat: no-repeat;
 	background-position: right top;
 }
@@ -197,7 +198,7 @@ a:hover, a:active {
 }
 
 .heading1 {
-	background: url(images/heading-bg-1.gif) no-repeat;
+	background: url(../../images/heading-bg-1.gif) no-repeat;
 	color: #909090;
 	display: block;
 	font-family: arial, tahoma;
@@ -215,7 +216,7 @@ a:hover, a:active {
 }
 
 .heading2 {
-	background: url(images/heading-bg-2.gif) no-repeat;
+	background: url(../../images/heading-bg-2.gif) no-repeat;
 	color: #909090;
 	display: block;
 	font-family: arial, tahoma;

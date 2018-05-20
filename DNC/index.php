@@ -6,7 +6,7 @@
 <body>
 <div id="container">
 <?php 
-	include "lib/php/head.php"
+	include "lib/php/top.php"
 ?>
   <div id="nav">
 
@@ -17,7 +17,7 @@
  </div>
   <div id="content">
     <div id="left"> <span class="flt-lft"></span>
-    <form id="formulaire" action="login.php" method="get">
+    <form id="formulaire" action="connect/login.php" method="get">
           			<label for="login">Login : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
 		       		<input type="text" name="login" id="login"  /><br/><br/>
 		

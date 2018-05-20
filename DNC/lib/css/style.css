@@ -1,4 +1,3 @@
-
 body {
 	background: #000000 url(../../images/main-bg.gif) repeat-x;
 	color: #7F7F7F;
@@ -79,8 +78,7 @@ a:hover, a:active {
 #content {
 	clear: both;
 	width: 775px;
-	/*background-image: url(../../images/content-bg.gif);*/
-	background-color: white;
+	background-image: url(../../images/content-bg.gif);
 	background-repeat: repeat;
 }
 
