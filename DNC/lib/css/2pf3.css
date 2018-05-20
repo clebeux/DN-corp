@@ -1,0 +1,118 @@
+body {
+	background: #000000 url(../../images/main-bg.gif) repeat-x;
+	color: #7F7F7F;
+	font-family: tahoma, arial;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+#banner {
+	clear: both;
+	height: 326px;
+	width: 776px;
+	text-align: center;
+}
+
+#logo {
+	height: 72px;
+	width: 776px;
+}
+
+h2{
+	color: white;
+}
+
+div.formaannu{
+			background-color: #5F909F;
+			float:left;
+			width:776px;
+			height:60px;
+			top: 0%;
+			right: auto;
+			bottom: 100px;
+			left: 0;
+
+	
+	
+}
+
+#container {
+	margin: 0px auto;
+	text-align: left;
+	width: 776px;
+}
+
+#content {
+	clear: both;
+	width: 775px;
+	background-image: url(../../images/content-bg.gif);
+	background-repeat: repeat;
+}
+.img{
+	float:right;
+	clear:both;
+	witdh: 3000px;
+}
+div.nom{
+			background-color: #C1D5DF;
+			float:left;
+			width:776px;
+			height:50px;
+			bottom: 100px;
+			top: 35%;	
+}
+
+fieldset{
+			background-color: white;
+}
+.nlink, .nlinkend {
+	float:left;
+	width:auto;
+	list-style: none;
+	display:inline;
+	text-align:center;
+	padding-top: 15px;
+	padding-left: 17px;
+	padding-right: 17px;
+	height:28px;
+}
+#footer {
+	background: url(../../images/footer-bg.gif) no-repeat;
+	clear: both;
+	color: #FFFFFF;
+	display: block;
+	font-size: 11px;
+	height: 108px;
+	padding-top: 20px;
+	text-align: center;
+	width: 776px;
+}
+#footer a:link { 
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+	
+#footer a:visited { 
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;	
+}
+	
+#footer a:hover, #footer a:active { 
+	color: #000000;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: underline;
+}

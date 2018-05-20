@@ -1,0 +1,13 @@
+COL; Colonel
+LCOL; Lieutenant Colonel
+COM; Commandant
+CAP; Capitaine
+LTN; Lieutenant
+MAJ; Major
+AJC;Adjudant Chef
+ADJ; Adjudant
+SRGC; Sergent chef
+SRG;Sergent
+CAP;Caporal
+CAPC; Caporal Chef 
+SAP1; Sapeur 1ère classe
