@@ -11,9 +11,9 @@
   <div id="banner"><img src="../images/main-image.jpg" alt="Main Image" /></div>
   <div id="nav">
     <ul>
-      <li class="nlink"><a href="01_sp.php">Accueil</a></li>
-	  <li class="nlink"><a href="../lib/php/affiche PF1.php">Personnel</a></li>
-	  <li class="nlink"><a href="../lib/php/pf3.php">Formation</a></li>
+      <li class="nlink"><a href="../01_sp/01_sp.php"	>Accueil</a></li>
+	  <li class="nlink"><a href="../menu/PF1.php"		>Personnel</a></li>
+	  <li class="nlink"><a href="../menu/PF3.php"		>Formation</a></li>
 
     </ul>
  </div>
