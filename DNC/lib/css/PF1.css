@@ -1,0 +1,48 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#pf1{
+
+	grid-template-rows: 50% 50%;
+  	grid-template-columns: 80% auto;
+	grid-template-areas:
+	"pf1_head pf1_head"
+	"pf1_gauche pf1_droite"
+	;
+  	display: grid;
+}
+
+.pf1_head{
+	grid-area: pf1_head;
+	background-color: white;
+}
+
+.pf1_partie_gauche{
+	grid-area: pf1_gauche;
+	background-color: white;
+}
+
+.pf1_partie_droite{
+	grid-area: pf1_droite;
+	background-color: WhiteSmoke;
+}
+
+button{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.logo{
+	height: 50px;
+}
+
+.button_logo{
+	height: 25px;
+}

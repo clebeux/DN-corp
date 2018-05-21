@@ -1,0 +1,22 @@
+mdp -> MD5 crypté
+sp_matricule ? -> LOG_SP
+1 page d'acceuille
+
+
+SERVEUR WEB
+
+	CONTROLEUR PRINCIPAL index.php
+
+	AUTENTIFICATION login.php
+
+		1 Sapeur Pompier
+	
+			Construction du menu 01_SP
+
+		2 Operateur CTA
+
+			Construction du menu 02_CTA
+
+		3 Service Formation
+
+			Construction du menu 03_SF
