@@ -11,6 +11,67 @@ body {
 * html body {
 }
 
+#menu {
+	margin: 0px;
+	padding: 10px;
+	background: #FFFFFF;
+	
+}
+
+
+menu.top{
+    padding-left: 10px;
+    font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #0080ff;
+
+}
+
+
+
+menu.titre{
+	position: relative;
+	margin: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #0080ff;
+	background: #c6e2ff;
+}
+
+menu.titre::before{
+	position: absolute;
+	margin-left: -10px;
+	bottom: 0px;
+	width: 100%;
+    height: 1px;
+    content: '';
+    background-color: #373737;
+
+  
+    display: block;
+}
+
+
+
+fieldset{
+	grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "gauche droite";
+    display: grid;
+}
+
+.gauche{
+	text-align: left;
+	grid-area: gauche;
+}
+
+.droite{
+	text-align: left;
+	grid-area: droite;
+}
 img {
 	border: 0px;
 }

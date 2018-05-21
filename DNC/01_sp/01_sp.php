@@ -23,6 +23,7 @@
     <div style="clear:both"></div>
  </div>
 <?php   include '../lib/php/footer.php'; ?>
+
 </div>
 </body>
 </html>	

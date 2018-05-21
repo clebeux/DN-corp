@@ -1,9 +1,9 @@
 <html>
 <head>
 	<?php 	
-			include "test_head.php";	
+			include "test_head.php";
 	?>
-	<link href="/arborescenceDvlpt V0.1/lib/css/PF1.css" rel="stylesheet" type="text/css" />
+	<link href="../lib/css/PF1.css" rel="stylesheet" type="text/css" />
 	
 </head>
 
@@ -12,21 +12,21 @@
 <div id="container">
 	<?php 
 		
-		include "head.php";
+		include "../lib/php/top.php";
 		
 	?>
 <div id="nav"></div>
 <div>
 	<div id="pf1">
 		<?php 
-		include "PF1.php";
+		include "../lib/php/PF1.php";
 		?>
 	</div>
 </div>
 
 	<?php 
 		
-		include "footer.php";
+		include "../lib/php/footer.php";
 	?>
 </div>
 </body>

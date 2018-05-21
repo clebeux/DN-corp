@@ -11,7 +11,7 @@
   <div id="banner"><img src="../images/main-image.jpg" alt="Main Image" /></div>
   <div id="nav">
     <ul>
-      <li class="nlink"><a href="">Accueil</a></li>
+      <li class="nlink"><a href="../test/temp.php">Accueil</a></li>
       <li class="nlink"><a href="">Personnel</a></li>
 
     </ul>
@@ -22,6 +22,8 @@
     <div style="clear:both"></div>
  </div>
 <?php   include '../lib/php/footer.php'; ?>
+
+
 </div>
 </body>
 </html>
