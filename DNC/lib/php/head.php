@@ -3,6 +3,7 @@
 
 <?php
     include 'racine.php';
+    session_start();
     echo '<link href="'.$racine.'lib/css/style.css" rel="stylesheet" type="text/css" />';
 ?>
 <!-- 

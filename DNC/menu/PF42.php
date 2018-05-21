@@ -4,7 +4,6 @@
     			include "../lib/php/head.php";
     	?>
     	<link href="../lib/css/PF1.css" rel="stylesheet" type="text/css" />
-    	
     </head>
 
 
@@ -13,6 +12,7 @@
         	<?php 
         		
         		include "../lib/php/top.php";
+        		session_start();
         		$profil = $_SESSION['log_profil'];
         		switch ($profil) {
         		    case "SP":
@@ -26,10 +26,9 @@
         		        break;
         		}
         	?>
- 
         	<div id="content">
         		<?php 
-        		include "PF1 content.php";
+        		  include "PF42 content.php";
         		?>
         	</div>
         

@@ -1,7 +1,7 @@
 <html>
 
 <?php 
-	include "lib/php/test_head.php"
+	include "lib/php/head.php"
 ?>
 <body>
 <div id="container">

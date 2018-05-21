@@ -1,6 +1,6 @@
 <html>
     <head>
-    	<?php 	
+    	<?php	
     			include "../lib/php/head.php";
     	?>
     	<link href="../lib/css/PF1.css" rel="stylesheet" type="text/css" />
@@ -26,12 +26,14 @@
         		        break;
         		}
         	?>
- 
+
+
         	<div id="content">
         		<?php 
-        		include "PF1 content.php";
+        		include "PF6 content.php";
         		?>
         	</div>
+
         
         	<?php 
         		
@@ -41,4 +43,3 @@
     </body>
 
 </html>
-
