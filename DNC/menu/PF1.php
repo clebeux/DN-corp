@@ -1,7 +1,7 @@
 <html>
 <head>
 	<?php 	
-			include "test_head.php";
+			include "../lib/php/test_head.php";
 	?>
 	<link href="../lib/css/PF1.css" rel="stylesheet" type="text/css" />
 	
@@ -17,9 +17,9 @@
 	?>
 <div id="nav"></div>
 <div>
-	<div id="pf1">
+	<div id="content">
 		<?php 
-		include "../lib/php/PF1.php";
+		include "PF1 content.php";
 		?>
 	</div>
 </div>
