@@ -1,7 +1,7 @@
 <div>
 	<?php
 	   session_start();
-	   header('Content-type: text/html; charset=iso-8859-1'); 
+	   header('Content-type: text/html; charset=iso-8859-15'); 
 	   include "../lib/php/connectAD.php";
 	   $matricule = $_SESSION['sp_matricule'];
 	?>
@@ -10,7 +10,9 @@
 	<menu class="titre">
 	<?php
 			$sql = "SELECT SP_PRENOM, SP_NOM FROM POMPIER WHERE SP_MATRICULE = $matricule";
-			afficheRequete($sql);
+			$result = tableSQL($sql)[0];
+			echo "$result[0] $result[1]";
+			
 	?>
 	</menu>
 	<menu class="content">
@@ -65,7 +67,7 @@
                       </fieldset>';
 
 
-			     echo "<br />Récepteur d'alerte: ";
+			     echo "<br />R&eacutecepteur d'alerte: ";
 			     $sql = "SELECT SP_TEL_PORTABLE
     					FROM POMPIER
     					WHERE SP_MATRICULE = $matricule ";

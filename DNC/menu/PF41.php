@@ -1,4 +1,4 @@
-<html>
+﻿<html>
     <head>
     	<?php 	
     			include "../lib/php/test_head.php";
