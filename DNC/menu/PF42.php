@@ -19,7 +19,7 @@
         <div>
         	<div id="content">
         		<?php 
-        		include "7-2PF42 content.php";
+        		include "PF42 content.php";
         		?>
         	</div>
         </div>
