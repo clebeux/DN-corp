@@ -34,6 +34,7 @@ menu.top{
 menu.titre{
 	position: relative;
 	margin: 10px;
+	margin-top: 0px;
 	padding-left: 10px;
 	font-weight: bold;
 	font-size: 16px;
@@ -76,6 +77,10 @@ menu.content fieldset{
 	grid-area: gauche;
 }
 
+.info{
+	margin: 8px;
+	background-color: #f0f0f0;
+}
 
 .droite{
 	text-align: left;
