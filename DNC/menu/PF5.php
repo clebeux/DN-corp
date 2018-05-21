@@ -15,7 +15,7 @@
         		include "../lib/php/top.php";
         		
         	?>
-        <div id="nav"></div>
+        <?php   include '../03_sf/03_sf_nav.php'; ?>
         <div>
         	<div id="content">
         		<?php 

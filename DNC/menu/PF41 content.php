@@ -1,4 +1,4 @@
-﻿
+
         	<?php
         	   include '../lib/php/connectAD.php';
         	   
@@ -13,7 +13,7 @@
                 echo    "</div>
                          <div class='right border-left'>
                                 <input type='button' value='Ajouter'>
-                                <input type='button' value='Quitter'>
+                                <button onclick='window.location.href=".'"'."../02_cta/02_cta.php".'"'."'>Quitter</button><br />
                          </div>
                          </menu>
                       </menu>";

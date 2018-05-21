@@ -1,4 +1,4 @@
-﻿<html>
+<html>
     <head>
     	<?php 	
     			include "../lib/php/test_head.php";
@@ -12,9 +12,8 @@
         	<?php 
         		
         		include "../lib/php/top.php";
-        		
+        		include '../02_cta/02_cta_nav.php';
         	?>
-        <div id="nav"></div>
         <div>
         	<div id="content">
         		<?php 

@@ -75,6 +75,7 @@
 		      ?>
 		      <button><img alt="" src="">?</button>
 		<br><button><img class="button_logo" alt="" src="../../images/notes.png">Formation</button>
+		<button onclick="window.location.href='../03_sf/03_sf.php'">Annuler</button><br />
 		</div>
 		<div class="droite border-left"><span>Fonctions occupées </span></div>
 	</menu>

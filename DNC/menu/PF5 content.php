@@ -22,7 +22,7 @@
 		?>
 		<br /><br />
 		<input name="submit" type="submit" />
-		<input name="Annuler" type="button" value="Annuler"/><br />
+		<button onclick="window.location.href='../03_sf/03_sf.php'">Annuler</button><br />
 		
 		
 

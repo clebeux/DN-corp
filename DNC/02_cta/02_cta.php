@@ -9,13 +9,7 @@
 <div id="container">
   <div id="logo"><img src="../images/logo.jpg" alt="Logo" /></div>
   <div id="banner"><img src="../images/main-image.jpg" alt="Main Image" /></div>
-  <div id="nav">
-    <ul>
-      <li class="nlink"><a href="../02_cta/02_cta.php">Accueil</a></li>
-      <li class="nlink"><a href="../menu/PF41.php">Personnel</a></li>
-
-    </ul>
- </div>
+  <?php   include '../02_cta/02_cta_nav.php'; ?>
   <div id="content">
     <div id="left"> <span class="flt-lft"></span>
 		       		</div>
