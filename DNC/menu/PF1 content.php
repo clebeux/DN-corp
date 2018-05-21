@@ -1,8 +1,9 @@
 <div>
 	<?php
-		header('Content-type: text/html; charset=iso-8859-1'); 
-		include "../lib/php/connectAD.php";
-		$matricule = "10";
+	   session_start();
+	   header('Content-type: text/html; charset=iso-8859-1'); 
+	   include "../lib/php/connectAD.php";
+	   $matricule = $_SESSION['sp_matricule'];
 	?>
 	<menu id = "menu">
 	<menu class="top">personnels</menu>
