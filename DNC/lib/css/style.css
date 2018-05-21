@@ -76,14 +76,19 @@ menu.content fieldset{
 	grid-area: gauche;
 }
 
+
 .droite{
 	text-align: left;
 	grid-area: droite;
 }
 
+.text-center{
+	text-align: center;
+}
 .text_droite{
 	text-align: right;
 }
+
 
 .border-left{
 	border-left: 1px solid black;
