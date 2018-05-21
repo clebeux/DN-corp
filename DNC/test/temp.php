@@ -1,4 +1,1 @@
-<?php
-
-echo $_SESSION['sp_matricule'];
-?>
+<input value="sdfsd">
