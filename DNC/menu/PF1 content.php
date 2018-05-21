@@ -1,6 +1,5 @@
 <div>
 	<?php
-	   session_start();
 	   header('Content-type: text/html; charset=iso-8859-15'); 
 	   include "../lib/php/connectAD.php";
 	   $matricule = $_SESSION['sp_matricule'];

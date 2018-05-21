@@ -9,14 +9,7 @@
 <div id="container">
   <div id="logo"><img src="../images/logo.jpg" alt="Logo" /></div>
   <div id="banner"><img src="../images/main-image.jpg" alt="Main Image" /></div>
-  <div id="nav">
-    <ul>
-      <li class="nlink"><a href="../01_sp/01_sp.php"	>Accueil</a></li>
-	  <li class="nlink"><a href="../menu/PF1.php"		>Personnel</a></li>
-	  <li class="nlink"><a href="../menu/PF3.php"		>Formation</a></li>
-
-    </ul>
- </div>
+  <?php   include '../01_sp/01_sp_nav.php'; ?>
   <div id="content">
     <div id="left"> <span class="flt-lft"></span>
 		       		</div>

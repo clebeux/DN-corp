@@ -25,17 +25,18 @@ $results = tableSQL($sql);
     foreach ($results as $ligne) {
         //Extraction valeur ligne courante
         $rows_matricule =   $ligne['SP_MATRICULE'];
-        $rows_gra_id =   $ligne['GRA_ID'];
+        $rows_gra_id    =   $ligne['GRA_ID'];
         $rows_login     =   $ligne['LOG_LOGIN'];
         $rows_mdp       =   $ligne['LOG_MDP'];
-        $rows_fctn      =   $ligne['LOG_PROFIL'];
+        $rows_profil    =   $ligne['LOG_PROFIL'];
         //verification du login et mdp de l'utilisateur sur la db
         if ((strtoupper ($login)) == (strtoupper ($rows_login)) && ($mdp == $rows_mdp)){
             
             $_SESSION['sp_matricule'] = $rows_matricule;
             $_SESSION['gra_id'] = $rows_gra_id;
+            $_SESSION['log_profil'] = $rows_profil;
                 //Redirection avec login vrai
-                switch ($rows_fctn) {
+                switch ($rows_profil) {
                     case "SP":
                         echo $sp;
                         break;

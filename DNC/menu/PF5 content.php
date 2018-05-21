@@ -2,7 +2,6 @@
 	<menu class='top'>inscription aux formations</menu>
 	<menu class='titre'>
 	<?php 
-    	session_start();
     	include "../lib/php/connectAD.php";
     	$matricule =   $_SESSION['sp_matricule'];
     	$gra_id    =   $_SESSION['gra_id'];
